@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  color: rgb(18, 18, 18);
+}
+
+#header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+#main {
+  width: 100%;
+}
+
+#main #text {
+  display: column;
+  text-align: center;
+}
+
+#main #text h2 {
+  padding-bottom: 10px;
+}
+
+#main #text #textarea {
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+  color: rgb(18, 18, 18);
+  border-color: rgb(18, 18, 18);
+  font-size: 1rem;
+}
+
+#main #text #counters {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#main #text #counters .count {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  border: 1px solid rgb(18, 18, 18);
+}
+
+#main #text #counters .count p{
+  padding-left: 7.5px;
+}
+
