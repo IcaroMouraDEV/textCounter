@@ -37,6 +37,7 @@ body {
   color: rgb(18, 18, 18);
   border-color: rgb(18, 18, 18);
   font-size: 1rem;
+  text-align: justify;
 }
 
 #main #text #counters {
@@ -56,4 +57,3 @@ body {
 #main #text #counters .count p{
   padding-left: 7.5px;
 }
-
